@@ -62,16 +62,16 @@ function removeUser(id){
     return usersArray;
 }
 
-module.exports = {
-    getAboutUsLink,
-    soma,
-    usersArray,
-    getUser,
-    setUser,
-    removeUser
-}
+// module.exports = {
+//     getAboutUsLink,
+//     soma,
+//     usersArray,
+//     getUser,
+//     setUser,
+//     removeUser
+// }
 
-// id = 20
-// const findIndex = usersArray.findIndex(object => object.id == id)
-// const remove = usersArray.splice(findIndex, 1)
-// console.log(remove[0])
+id = 20
+const findIndex = usersArray.findIndex(object => object.id == id)
+const remove = usersArray.splice(findIndex, 1)
+console.log(remove[0])
